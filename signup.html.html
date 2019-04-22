@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DonGle DonGle</title>
+	<style>
+	#dongle{
+	background-color:white;
+	border:2px solid gray;
+	border-radius:20px;
+	width:400px;
+	height:450px;
+	padding:5px;
+	}
+	img#logo{
+	margin:5px;
+	}
+	input {
+	width:150px;
+	height:20px;
+	margin:5px;
+	}
+	input#next{
+	background-color:blue;
+	width:70px;
+	height:40px;
+	}
+	</style>
+	</head>
+	<body>
+	<div id="dongle">
+		<img src="image/signup/dongle.jpg" alt="동글동글" width="110" height="40" id="logo"><br>
+		<h2>DonGle계정 만들기</h2>
+		<table>
+			<tr>
+				<td><input type="text" placeholder="성"></td>
+				<td><input type="text" placeholder="이름"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="text" placeholder="사용자 이름"></td>
+			</tr>
+		</table>
+		문자, 숫자, 마침표를 사용할 수 있습니다.<br><br>
+		<table>
+			<tr>
+				<td><input type="password" placeholder="비밀번호"></td>
+				<td><input type="password" placeholder="확인"></td>
+				<td><img src="image/signup/eye.jpg" height="20" width="50"></td>
+			</tr>
+		</table>
+		문자, 숫자, 기호를 조합하여 8자 이상을 사용하세요<br><br>
+		<font color="blue">대신 로그인하기</font>
+		<input type="button" value="다음" id="next">
+	</div>
+	</body>
+</html>
